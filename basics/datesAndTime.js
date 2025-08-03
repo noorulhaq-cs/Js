@@ -19,6 +19,10 @@ let myDate = new Date()
 let newDate = new Date("02-08-2025")   // SET custom date
 
 
-console.log(newDate.toLocaleString())
-console.log(newDate.toString())
+// console.log(newDate.toLocaleString())
+// console.log(newDate.toString())
+
+let recentDate = Date.now()  // return recent date
+
+console.log(Math.floor(newDate.getTime()/1000)) // milisec to second
 
